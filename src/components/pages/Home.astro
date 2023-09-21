@@ -2,13 +2,25 @@
 
 ---
 
-<div>
-	<h1 class='font-atomic text-4xl'>Home</h1>
-	<h1 class="font-cocogoose text-4xl">Home</h1>
-	<h1 class="font-roboto text-4xl">Home</h1>
-	<h2>Home</h2>
-	<h2>home</h2>
-	<h2>home</h2>
-	<p>This is the Astro homepage page.</p>
-	<img src='/img/icon-home.png' />
+<div class="pb-40 relative">
+	<img src="/img/bg-home-hero.png" class="absolute inset-x-0 top-0 h-auto z-20" alt="bg-hero">
+	<div class="container pt-32 relative z-30">
+		<div class="flex items-end gap-14">
+			<div>
+				<div class="flex gap-12 items-center">
+					<div>
+						<img src="/img/icon-hat.png" class="h-28 2xl:h-36" alt="icon hat">
+					</div>
+					<div>
+						<h2 class="text-brand-primary text-5xl/[60px] 2xl:text-6xl/[70px] font-cocogoose font-light -tracking-[2.6px]">Professional <br/> <span class="font-[400]">WinOLS Training</span></h2>
+					</div>
+				</div>
+				<span class="pt-14 font-roboto text-brand-black text-xl block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid-unt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ebnmodo consequat.</span>
+				<a href="/" class="text-white bg-brand-secondary text-[34px] 2xl:text-[37px] -tracking-[1.48px] px-28 py-3 rounded-3xl inline-block mt-14 2xl:mt-16">Choose your course</a>
+			</div>
+			<div class="h-auto shrink-0">
+				<img src="/img/hero-illustration.png" class="h-80 2xl:h-96" alt="panel illustration">
+			</div>
+		</div>
+	</div>
 </div>
