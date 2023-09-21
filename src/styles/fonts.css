@@ -13,3 +13,91 @@ Example usage:
 }
 
 */
+
+@font-face {
+	font-family: 'atomic';
+	src: url('/fonts/aatomicmd-webfont.woff2') format('woff2'),
+			 url('/fonts/aatomicmd-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_thin_italic-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_thin_italic-trial-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_thin-trial-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_ultralight-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_ultralight-trial-webfont.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_ultralight_italic-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_ultralight_italic-trial-webfont.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_light-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_light-trial-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_light_italic-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_light_italic-trial-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_semilight_italic-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_semilight_italic-trial-webfont.woff') format('woff');
+	font-weight: 350;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_semilight-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_semilight-trial-webfont.woff') format('woff');
+	font-weight: 350;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro-trial-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cocogoose';
+	src: url('/fonts/cocogoose_pro_italic-trial-webfont.woff2') format('woff2'),
+			 url('/fonts/cocogoose_pro_italic-trial-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}

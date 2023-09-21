@@ -6,7 +6,9 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,ts,tsx}'],
 	theme: {
 		fontFamily: {
-			body: ['', 'sans-serif'],
+			body: ['Roboto', 'sans-serif'],
+			atomic: ['atomic', 'sans-serif'],
+			cocogoose: ['cocogoose', 'sans-serif'],
 		},
 
 		container: {
@@ -17,7 +19,10 @@ module.exports = {
 		extend: {
 			colors: {
 				brand: {
-					primary: '',
+					primary: '#4C61A8',
+					secondary: '#FDB515',
+					black: '#333031',
+					gray: '#939598',
 				},
 			},
 			spacing: {
