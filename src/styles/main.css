@@ -1,4 +1,4 @@
-@import "fonts.css"; /* for custom fonts */
+@import 'fonts.css'; /* for custom fonts */
 
 @tailwind base;
 @tailwind components;
@@ -7,18 +7,5 @@
 @layer base {
 	html {
 		@apply font-body antialiased;
-	}
-
-	[x-cloak] {
-		@apply !hidden;
-	}
-}
-
-@layer components {
-	.btn {
-		@apply transition-colors duration-300 ease-linear;
-	}
-
-	.btn-primary {
 	}
 }

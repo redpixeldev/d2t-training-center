@@ -22,7 +22,7 @@ export default defineConfig({
 	},
 	integrations: [
 		// react(),
-		alpinejs(),
+		// alpinejs(),
 		tailwindcss({
 			applyBaseStyles: false,
 		}),
